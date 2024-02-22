@@ -82,3 +82,9 @@ Route::resource('photos', PhotoController::class)->only([
 Route::resource('photos', PhotoController::class)->except([ 
     'create', 'store', 'update', 'destroy'
 ]);
+
+//route untuk view
+Route::get('/greeting', function () {
+    return view('hello', ['name' => 'Nindy']);
+});
+    
