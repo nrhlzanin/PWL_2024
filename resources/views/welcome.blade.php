@@ -16,7 +16,6 @@
         </style>
     </head>
     <body>
-        <h2>Pemrograman Web Lanjut 2024</h2>
-        <h2>Semangat Belajar Laravel 10</h2>
+        <h2>Selamat Datang</h2>
     </body>
 </html>
